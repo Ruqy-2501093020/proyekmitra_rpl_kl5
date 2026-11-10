@@ -1,6 +1,6 @@
 
   <?php
-    $koneksi = mysqli_connect("localhost","root","","perpustakaan_db");
+    $koneksi = mysqli_connect("localhost","root","","kontrakan");
 
     if($koneksi->connect_error){
         echo "Database error";
